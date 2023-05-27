@@ -17,7 +17,7 @@ const Input = ({ name, type, placeholder }) => {
           id={name}
           type={type}
           className="w-full h-[50px] bg-primary border-secondary border outline-none rounded-md absolute
-          focus:-top-2 focus:-left-2 top-0 left-0transition-all duration-200 ease-in-out px-3 text-white"
+          focus:-top-2 focus:-left-2 top-0 left-0 transition-all duration-200 ease-in-out px-3 text-white"
           placeholder={placeholder}
         />
       </div>
